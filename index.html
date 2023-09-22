@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="welcomeScreen" class="welcomeScreen">
+            <h1>Quiz: world capitals</h1>
+            <h2> This quiz consists of <span id="NbQuestions"></span>questions.</h2>
+            <button id="confirmButton">OK</button>
+        </div>
+        <div id="questionScreen" class="questionScreen">
+            <h1 id="questionTitle"></h1>            
+            <button class="btn" id="answer1"></button>
+            <button class= "btn" id="answer2"></button>
+            <button class = "btn" id="answer3"></button>
+        </div>
+        <div id="resultScreen" class="resultScreen">
+            <h1>RESULTS!</h1>
+            <h2> You got<span id ="totalCorrectAnswers"></span>correct answers out of<span id="totalQuestions"> </span>questions.</h2>
+
+        </div>
+    </main> 
+  <script src="app.js"></script>  
+</body>
+</html>

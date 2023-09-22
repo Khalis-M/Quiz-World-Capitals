@@ -1,0 +1,1 @@
+This project is a JavaScript-based quiz game with three screens: welcome, question, and results. Users click "Start" to begin, answer multiple-choice questions, and receive immediate feedback. The game tracks correct answers and displays the score at the end. Customization is possible by modifying the JavaScript code, including adding or changing questions.
